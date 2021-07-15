@@ -1,11 +1,77 @@
+:root {
+    --primary-color: #212121;
+    --secondary-color: #757575;
+    --accent-color: #2196F3;
+    --background-color: #2F303A;
+    --white-color: #FFFFFF;
+    --buttons-color: #F5F4FA;
+
+}
+/* Body */
+body {
+    color: var(--secondary-color)
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Page-header */
 .page-header {
-    
+    background-color: var(--white-color);
+    color: var(--background-color);
 }
-.link {
+
+span.header {
+    color: var(--primary-color)
 }
-.navigation {
+
+a.nav-link {
+    color: var(--primary-color)
 }
-.list {
+
+a.nav-link:hover,
+a.nav-link:focus {
+    color: var(--accent-color)
 }
-.item {
+
+a.portfolio-link {
+    color: var(--accent-color)
+}
+
+a.portfolio-link:hover,
+a.portfolio-link:focus {
+    color: var(--primary-color)
+}
+
+a.header-mail {
+    color: var(--secondary-color)
+}
+
+a.mail-link:hover,
+a.mail-link:focus {
+    color: var(--accent-color)
+}
+
+a.header-phone {
+    color: var(--secondary-color)
+}
+
+a.header-phone:hover,
+a.header-phone:focus {
+    color: var(--accent-color)
+}
+
+/* Main */
+button.all-btn {
+    background-color: var(--accent-color);
+    color: var(--white-color)
+}
+
+.item-title {
+    color: var(--primary-color)
+}
+
+.item-text {
+    color: var(--secondary-color)
 }
