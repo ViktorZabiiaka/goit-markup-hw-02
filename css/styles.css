@@ -9,9 +9,10 @@
 }
 /* Шапка */
 body {
-    background-color: var(--ptimary-background-color);
     color: var(--primary-color);
+    background-color: var(--primary-white-color);
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 a.p, p {
@@ -28,23 +29,27 @@ a {
 
 /* Page-header */
 header {
-    background-color: var(--white-color);
+    background-color: var(--primary-white-color);
     }
 
 span.logo-link {
     color: var(--accent-color);
 }
 
-a.logo-link {
+a.logo.header {
     color: #000;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26;
-    line-height: 1,19; 
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.19;  
 }
 
 a.nav-link {
     color: var(--primary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 a.nav-link:hover,
@@ -59,6 +64,11 @@ a.nav-link.current {
 
 a.kontakts {
     color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
 }
 
 a.kontakts:hover,
@@ -85,10 +95,13 @@ a.kontakts-list:focus {
     background-color: var(--background-color);
 }
 
+/* Hero */
 .hero-title {
     font-weight: 900;
-    font-size: 44;
-    line-height: 1,5;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 button {
@@ -109,11 +122,30 @@ button:focus {
     background-color: var(--accent-color);
 }
 
+button.button.primary.hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+}
+
 button.button.primary.hero:hover,
 button.button.primary.hero:focus {
     color: var(--primary-white-color);
     background-color: #188ce8;
 }
+
+/* Features */
+.features-title {
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.features-item {
+    font-size: 14px;
+    line-height: 1.71;
+}
+
 
 /* portfolio */
 a.portfolio-link:hover,
@@ -123,6 +155,7 @@ a.portfolio-link:focus {
 
 .item-title {
     color: var(--primary-color);
+    letter-spacing: 0.06em;
 }
 
 .team {
