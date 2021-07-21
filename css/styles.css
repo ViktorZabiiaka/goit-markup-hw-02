@@ -210,11 +210,11 @@ button:focus {
 }
 
 /* Футер */
-footer {
+.footer {
     background-color: var(--background-color);
 }
 
-address {
+.address {
     font-style: normal;
 }
 
